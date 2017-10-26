@@ -1,0 +1,24 @@
+/* =================================
+  Flexbox
+==================================== */
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+@media (min-width: 599px) {
+	.nav {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.nav {
+		flex-direction: row;
+	}
+}
